@@ -22,7 +22,10 @@
               <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
 
-            <button type="submit" class="btn btn-primary">Save</button>
+           <div class="d-flex gap-1">
+             <button  type="submit" class="btn btn-primary w-50">Save</button>
+             <a href="{{ route('send.opt') }}" class="btn btn-outline-dark w-25">Send OTP</a>
+           </div>
         </form>
     </div>
 

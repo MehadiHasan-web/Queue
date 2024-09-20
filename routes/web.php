@@ -9,3 +9,4 @@ Route::get('/', function () {
 });
 
 Route::post('register', [RegisterController::class, 'store'])->name('register');
+Route::get('send-opt', [RegisterController::class, 'sendOpt'])->name('send.opt');
